@@ -1,0 +1,15 @@
+/**index.wxss**/
+.star-image{
+  position: absolute;
+  top: 50rpx;
+  margin-left: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+  src: "../../images/no-star.png";
+}
+.item{
+  position: absolute;
+  top: 50rpx;
+  width: 100rpx;
+  height: 100rpx;
+}

@@ -1,0 +1,11 @@
+
+<!--pages/show/show.wxml-->
+<view class="stars">
+  <block wx:for="{{stars}}" wx:for-item="item">
+    <image src="../../images/{{item}}-star.png" class="star"></image>
+  </block>
+  <form bindsubmit="formSubmit" bindreset="formReset">
+      <input name="input" style="margin-bottom:20rpx" class="c_Input" placeholder="请输入评分"/>
+      <button style="background-color:#0066FF;color:white" formType="submit">确定</button>
+  </form>
+</view>

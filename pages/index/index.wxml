@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view >
+    <block wx:for="{{stars}}" wx:key='key-item'>
+      <image class="star-image" style="left: {{item*100}}rpx" src="{{key > item ?(key-item == 0.5?halfSrc:selectedSrc) : normalSrc}}">
+        <view class="item" style="left:0rpx" data-key="{{item+0.5}}" bindtap="selectLeft"></view>
+        <view class="item" style="left:50rpx" data-key="{{item+1}}" bindtap="selectRight"></view>
+      </image>
+    </block>
+  <view style="margin-top:450rpx">
+    <button bindtap="startRating">确认</button>
+  </view>
+</view>

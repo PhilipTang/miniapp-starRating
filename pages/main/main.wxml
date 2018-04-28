@@ -1,0 +1,8 @@
+<!--pages/main/main.wxml-->
+<navigator url="../index/index">
+    <button class="mybtn" type="primary">打分</button>
+</navigator>
+
+<navigator url="../show/show">
+    <button class="mybtn" type="primary">显示评分</button>
+</navigator>

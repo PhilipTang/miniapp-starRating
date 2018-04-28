@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/main/main",
+    "pages/show/show",
+    "pages/index/index"
+   
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "星级评分",
+    "navigationBarTextStyle":"black"
+  }
+}

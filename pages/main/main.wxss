@@ -1,0 +1,2 @@
+/* pages/main/main.wxss */
+.mybtn{width:686rpx;margin: 60rpx auto }
